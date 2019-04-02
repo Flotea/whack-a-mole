@@ -1,0 +1,36 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dirt-box{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(127,204,51);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius:30px;
+    border: 10px solid green;
+}
+
+.row{
+    padding-top: 10%;
+    width: 600px;
+    display:flex;
+    justify-content: space-around;
+}
+
+#mole{
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.dirt{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background-color:rgb(205,133,63);
+    border:10px solid rgb(139,69,19);
+}
