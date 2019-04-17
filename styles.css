@@ -52,12 +52,32 @@
     justify-content: center;
     font-size: 50px;
     font-family: 'Barrio', cursive;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
     
+}
+#score{
+    font-family: 'Barrio', cursive;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 10px;
 }
 #sidebar{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding-left: 100px;
+}
+
+#reset{
+    font-family: 'Barrio', cursive;
+    padding: 5px;
+    border-radius: 30%;
+    border:solid green;
+    background-color: rgb(127,204,51); 
+}
+
+#timer{
+    font-family: 'Barrio', cursive;
+    display: flex;
+    justify-content: center;  
 }
